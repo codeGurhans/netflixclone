@@ -9,7 +9,6 @@ A responsive, modern, and visually stunning **Netflix India landing page clone**
 - [📁 Directory Structure](#-directory-structure)
 - [🛠 Tech Stack](#-tech-stack)
 - [🧠 System Architecture](#-system-architecture)
-- [📸 Screenshots](#-screenshots)
 - [🚀 How to Use / Run](#-how-to-use--run)
 - [🌐 Community & Support](#-community--support)
 - [🤝 Contributing](#-contributing)
@@ -40,14 +39,27 @@ This project is a **front-end clone** of the official Netflix India homepage. It
 ## 📁 Directory Structure
 ```
 netflixclone/
-├── index.html
-├── style.css
-├── README.md
+├── .vscode/
+│   └── launch.json
+├── assets/
+│   ├── images/
+│   │   ├── favicon.ico
+│   │   ├── home_page_banner.png
+│   │   ├── logo.svg
+│   │   └── language-svgrepo.svg
+│   ├── css/
+│   │   └── style.css
+│   └── fonts/
+│       └── NetflixSans-Bold.woff
+├── pages/
+│   ├── index.html
+│   ├── login.html
+│   └── signup.html
+├── CODE_OF_CONDUCT.md
 ├── contributing.md
-└── Screenshots/
-  ├── Category.png
-  ├── FAQs.png
-  └── Main-Page.png
+├── LICENSE
+└── README.md
+
 ```
 ---
 ## 🛠 Tech Stack
@@ -71,19 +83,6 @@ style.css
 
 
 Since this is a static clone, the flow is simple: HTML renders the structure, CSS controls the layout and responsiveness, and image assets enhance visual appeal.
-
----
-
-## 📸 Screenshots
-
-1. Introduction Page
-![introduction Page](screenshots/Main-Page.png)
-
-2. Category Page
-![Category Page](screenshots/Category.png)
-
-3. Frequently Asked Questions
-![FAQs](screenshots/FAQs.png)
 
 ---
 ## 🚀 How to Use / Run
