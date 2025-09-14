@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Netflix Sans Bolder";
-  src: url("fonts/NetflixSans-Bold.otf") format("opentype");
+  src: url("../fonts/NetflixSans-Bold.otf") format("opentype");
 }
 
 :root {
